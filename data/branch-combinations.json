@@ -1,0 +1,313 @@
+{
+  "name": "地支三合局、三會方與六合對照表",
+  "nameEn": "Earthly-Branch Combination Groups (三合局 / 三會方 / 六合)",
+  "source": "https://yimingshu.net/zh-hant/reference/branch-combinations",
+  "license": "CC0-1.0",
+  "generator": "traditional rules; hidden stems (藏干) read from tyme4ts",
+  "note": "The combination rules are canonical traditional rules, not calendar-derived. Each row's per-branch hidden stems are read from the deterministic calendar engine.",
+  "fields": {
+    "kind": "三合局 | 三會方 | 六合",
+    "branches": "the branches in this combination",
+    "result": "resulting element (化氣)",
+    "meaning": "per-branch detail including hidden stems (藏干)"
+  },
+  "groups": [
+    {
+      "kind": "三合局",
+      "rule": "申子辰合水、亥卯未合木、寅午戌合火、巳酉丑合金",
+      "groups": [
+        {
+          "branches": "申子辰",
+          "result": "水"
+        },
+        {
+          "branches": "亥卯未",
+          "result": "木"
+        },
+        {
+          "branches": "寅午戌",
+          "result": "火"
+        },
+        {
+          "branches": "巳酉丑",
+          "result": "金"
+        }
+      ]
+    },
+    {
+      "kind": "三會方",
+      "rule": "寅卯辰會木（東方）、巳午未會火（南方）、申酉戌會金（西方）、亥子丑會水（北方）",
+      "groups": [
+        {
+          "branches": "寅卯辰",
+          "result": "木",
+          "direction": "東方"
+        },
+        {
+          "branches": "巳午未",
+          "result": "火",
+          "direction": "南方"
+        },
+        {
+          "branches": "申酉戌",
+          "result": "金",
+          "direction": "西方"
+        },
+        {
+          "branches": "亥子丑",
+          "result": "水",
+          "direction": "北方"
+        }
+      ]
+    },
+    {
+      "kind": "六合",
+      "rule": "子丑合土、寅亥合木、卯戌合火、辰酉合金、巳申合水、午未合土",
+      "groups": [
+        {
+          "branches": "子丑",
+          "result": "土"
+        },
+        {
+          "branches": "寅亥",
+          "result": "木"
+        },
+        {
+          "branches": "卯戌",
+          "result": "火"
+        },
+        {
+          "branches": "辰酉",
+          "result": "金"
+        },
+        {
+          "branches": "巳申",
+          "result": "水"
+        },
+        {
+          "branches": "午未",
+          "result": "土"
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "kind": "三合局",
+      "branches": "申子辰",
+      "result": "水",
+      "meaning": "申（藏干：庚、壬、戊）與 子、辰 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "申子辰",
+      "result": "水",
+      "meaning": "子（藏干：癸）與 申、辰 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "申子辰",
+      "result": "水",
+      "meaning": "辰（藏干：戊、乙、癸）與 申、子 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "亥卯未",
+      "result": "木",
+      "meaning": "亥（藏干：壬、甲）與 卯、未 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "亥卯未",
+      "result": "木",
+      "meaning": "卯（藏干：乙）與 亥、未 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "亥卯未",
+      "result": "木",
+      "meaning": "未（藏干：己、丁、乙）與 亥、卯 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "寅午戌",
+      "result": "火",
+      "meaning": "寅（藏干：甲、丙、戊）與 午、戌 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "寅午戌",
+      "result": "火",
+      "meaning": "午（藏干：丁、己）與 寅、戌 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "寅午戌",
+      "result": "火",
+      "meaning": "戌（藏干：戊、辛、丁）與 寅、午 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "巳酉丑",
+      "result": "金",
+      "meaning": "巳（藏干：丙、庚、戊）與 酉、丑 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "巳酉丑",
+      "result": "金",
+      "meaning": "酉（藏干：辛）與 巳、丑 相合"
+    },
+    {
+      "kind": "三合局",
+      "branches": "巳酉丑",
+      "result": "金",
+      "meaning": "丑（藏干：己、癸、辛）與 巳、酉 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "寅卯辰",
+      "result": "木",
+      "meaning": "寅（藏干：甲、丙、戊）與 卯、辰 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "寅卯辰",
+      "result": "木",
+      "meaning": "卯（藏干：乙）與 寅、辰 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "寅卯辰",
+      "result": "木",
+      "meaning": "辰（藏干：戊、乙、癸）與 寅、卯 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "巳午未",
+      "result": "火",
+      "meaning": "巳（藏干：丙、庚、戊）與 午、未 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "巳午未",
+      "result": "火",
+      "meaning": "午（藏干：丁、己）與 巳、未 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "巳午未",
+      "result": "火",
+      "meaning": "未（藏干：己、丁、乙）與 巳、午 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "申酉戌",
+      "result": "金",
+      "meaning": "申（藏干：庚、壬、戊）與 酉、戌 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "申酉戌",
+      "result": "金",
+      "meaning": "酉（藏干：辛）與 申、戌 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "申酉戌",
+      "result": "金",
+      "meaning": "戌（藏干：戊、辛、丁）與 申、酉 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "亥子丑",
+      "result": "水",
+      "meaning": "亥（藏干：壬、甲）與 子、丑 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "亥子丑",
+      "result": "水",
+      "meaning": "子（藏干：癸）與 亥、丑 相合"
+    },
+    {
+      "kind": "三會方",
+      "branches": "亥子丑",
+      "result": "水",
+      "meaning": "丑（藏干：己、癸、辛）與 亥、子 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "子丑",
+      "result": "土",
+      "meaning": "子（藏干：癸）與 丑 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "子丑",
+      "result": "土",
+      "meaning": "丑（藏干：己、癸、辛）與 子 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "寅亥",
+      "result": "木",
+      "meaning": "寅（藏干：甲、丙、戊）與 亥 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "寅亥",
+      "result": "木",
+      "meaning": "亥（藏干：壬、甲）與 寅 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "卯戌",
+      "result": "火",
+      "meaning": "卯（藏干：乙）與 戌 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "卯戌",
+      "result": "火",
+      "meaning": "戌（藏干：戊、辛、丁）與 卯 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "辰酉",
+      "result": "金",
+      "meaning": "辰（藏干：戊、乙、癸）與 酉 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "辰酉",
+      "result": "金",
+      "meaning": "酉（藏干：辛）與 辰 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "巳申",
+      "result": "水",
+      "meaning": "巳（藏干：丙、庚、戊）與 申 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "巳申",
+      "result": "水",
+      "meaning": "申（藏干：庚、壬、戊）與 巳 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "午未",
+      "result": "土",
+      "meaning": "午（藏干：丁、己）與 未 相合"
+    },
+    {
+      "kind": "六合",
+      "branches": "午未",
+      "result": "土",
+      "meaning": "未（藏干：己、丁、乙）與 午 相合"
+    }
+  ],
+  "count": 36
+}

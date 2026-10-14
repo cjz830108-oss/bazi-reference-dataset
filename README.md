@@ -9,6 +9,8 @@ Deterministic, machine-readable reference tables for Chinese astrology (八字 /
 | 60 Sexagenary Terms (六十甲子) | [sexagenary-cycle](https://yimingshu.net/zh-hant/reference/sexagenary-cycle) | [data/sexagenary-cycle.json](data/sexagenary-cycle.json) |
 | 2027 Monthly Pillars (丁未年) | [2027-monthly](https://yimingshu.net/zh-hant/reference/2027-monthly) | [data/monthly-pillars-2027.json](data/monthly-pillars-2027.json) |
 | 12 Double-Hours (十二時辰) | [twelve-hours](https://yimingshu.net/zh-hant/reference/twelve-hours) | [data/twelve-hours.json](data/twelve-hours.json) |
+| Earthly-Branch Combinations (三合局/三會方/六合) | [branch-combinations](https://yimingshu.net/zh-hant/reference/branch-combinations) | [data/branch-combinations.json](data/branch-combinations.json) |
+| Five-Element Seasonal States (旺相休囚死) | [five-elements-states](https://yimingshu.net/zh-hant/reference/five-elements-states) | [data/five-elements-states.json](data/five-elements-states.json) |
 
 If you use this data, a link back to the source page is appreciated — it is how this dataset stays discoverable and maintained.
 
@@ -29,6 +31,12 @@ The 12 month pillars (月柱) of the 2027 lunar year with Na Yin, zodiac branch,
 
 ### `twelve-hours.json` — the 12 double-hours (12 rows)
 Clock-hour ranges, five element, zodiac animal, and the governing sexagenary term for each of 子時…亥時. 子時 spans 23:00–01:00 and crosses midnight (the traditional 23:00-start convention). This is the basis of the BaZi hour pillar (時柱).
+
+### `branch-combinations.json` — the 14 combination groups (36 rows)
+三合局 (申子辰合水,亥卯未合木, 寅午戌合火, 巳酉丑合金), 三會方 (the four seasonal directional meetings) and 六合 (the six pairwise unions) — each expanded per branch with its hidden stems (藏干). Also includes a `groups` block with the raw rules for direct use.
+
+### `five-elements-states.json` — seasonal states + cycles (20 + 10 rows)
+The 旺相休囚死 matrix (5 elements × 4 seasons) with a short reading for each combination, plus the generating (相生) and overcoming (相剋) cycles as ready-to-use strings.
 
 ## Generation
 
