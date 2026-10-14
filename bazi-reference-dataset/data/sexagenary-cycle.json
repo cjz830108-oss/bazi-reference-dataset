@@ -1,0 +1,842 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "六十甲子干支納音對照表 / The 60 Sexagenary Terms with Na Yin",
+  "nameEn": "The 60 Sexagenary Terms (干支) with Na Yin",
+  "description": "The complete 60-term sexagenary cycle: each pairing of one of the 10 heavenly stems with one of the 12 earthly branches, with the Na Yin sound and its element, the zodiac animal, and the element of both characters.",
+  "source": "https://yimingshu.net/zh-hant/reference/sexagenary-cycle",
+  "homepage": "https://yimingshu.net",
+  "license": "CC0-1.0",
+  "generator": "tyme4ts (deterministic Chinese calendar engine)",
+  "count": 60,
+  "fields": {
+    "index": "1-60 position in the cycle",
+    "ganzhi": "sexagenary term, e.g. 甲子",
+    "stem": "heavenly stem character",
+    "branch": "earthly branch character",
+    "stemElement": "five element of the stem (木火土金水)",
+    "branchElement": "five element of the branch (木火土金水)",
+    "zodiac": "zodiac animal of the branch",
+    "nayin": "Na Yin sound (納音), 2 terms share one",
+    "nayinElement": "five element of the Na Yin sound"
+  },
+  "stems": [
+    {
+      "name": "甲",
+      "element": "木",
+      "polarity": "陽"
+    },
+    {
+      "name": "乙",
+      "element": "木",
+      "polarity": "陰"
+    },
+    {
+      "name": "丙",
+      "element": "火",
+      "polarity": "陽"
+    },
+    {
+      "name": "丁",
+      "element": "火",
+      "polarity": "陰"
+    },
+    {
+      "name": "戊",
+      "element": "土",
+      "polarity": "陽"
+    },
+    {
+      "name": "己",
+      "element": "土",
+      "polarity": "陰"
+    },
+    {
+      "name": "庚",
+      "element": "金",
+      "polarity": "陽"
+    },
+    {
+      "name": "辛",
+      "element": "金",
+      "polarity": "陰"
+    },
+    {
+      "name": "壬",
+      "element": "水",
+      "polarity": "陽"
+    },
+    {
+      "name": "癸",
+      "element": "水",
+      "polarity": "陰"
+    }
+  ],
+  "branches": [
+    {
+      "name": "子",
+      "element": "水",
+      "polarity": "陽",
+      "zodiac": "鼠"
+    },
+    {
+      "name": "丑",
+      "element": "土",
+      "polarity": "陰",
+      "zodiac": "牛"
+    },
+    {
+      "name": "寅",
+      "element": "木",
+      "polarity": "陽",
+      "zodiac": "虎"
+    },
+    {
+      "name": "卯",
+      "element": "木",
+      "polarity": "陰",
+      "zodiac": "兔"
+    },
+    {
+      "name": "辰",
+      "element": "土",
+      "polarity": "陽",
+      "zodiac": "龍"
+    },
+    {
+      "name": "巳",
+      "element": "火",
+      "polarity": "陰",
+      "zodiac": "蛇"
+    },
+    {
+      "name": "午",
+      "element": "火",
+      "polarity": "陽",
+      "zodiac": "馬"
+    },
+    {
+      "name": "未",
+      "element": "土",
+      "polarity": "陰",
+      "zodiac": "羊"
+    },
+    {
+      "name": "申",
+      "element": "金",
+      "polarity": "陽",
+      "zodiac": "猴"
+    },
+    {
+      "name": "酉",
+      "element": "金",
+      "polarity": "陰",
+      "zodiac": "雞"
+    },
+    {
+      "name": "戌",
+      "element": "土",
+      "polarity": "陽",
+      "zodiac": "狗"
+    },
+    {
+      "name": "亥",
+      "element": "水",
+      "polarity": "陰",
+      "zodiac": "豬"
+    }
+  ],
+  "nayinSounds": [
+    "海中金",
+    "爐中火",
+    "大林木",
+    "路旁土",
+    "劍鋒金",
+    "山頭火",
+    "澗下水",
+    "城頭土",
+    "白蠟金",
+    "楊柳木",
+    "泉中水",
+    "屋上土",
+    "霹靂火",
+    "松柏木",
+    "長流水",
+    "沙中金",
+    "山下火",
+    "平地木",
+    "壁上土",
+    "金箔金",
+    "覆燈火",
+    "天河水",
+    "大驿土",
+    "釵釧金",
+    "桑柘木",
+    "大溪水",
+    "沙中土",
+    "天上火",
+    "石榴木",
+    "大海水"
+  ],
+  "terms": [
+    {
+      "index": 1,
+      "ganzhi": "甲子",
+      "stem": "甲",
+      "branch": "子",
+      "stemElement": "木",
+      "branchElement": "水",
+      "zodiac": "鼠",
+      "nayin": "海中金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 2,
+      "ganzhi": "乙丑",
+      "stem": "乙",
+      "branch": "丑",
+      "stemElement": "木",
+      "branchElement": "土",
+      "zodiac": "牛",
+      "nayin": "海中金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 3,
+      "ganzhi": "丙寅",
+      "stem": "丙",
+      "branch": "寅",
+      "stemElement": "火",
+      "branchElement": "木",
+      "zodiac": "虎",
+      "nayin": "炉中火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 4,
+      "ganzhi": "丁卯",
+      "stem": "丁",
+      "branch": "卯",
+      "stemElement": "火",
+      "branchElement": "木",
+      "zodiac": "兔",
+      "nayin": "炉中火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 5,
+      "ganzhi": "戊辰",
+      "stem": "戊",
+      "branch": "辰",
+      "stemElement": "土",
+      "branchElement": "土",
+      "zodiac": "龍",
+      "nayin": "大林木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 6,
+      "ganzhi": "己巳",
+      "stem": "己",
+      "branch": "巳",
+      "stemElement": "土",
+      "branchElement": "火",
+      "zodiac": "蛇",
+      "nayin": "大林木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 7,
+      "ganzhi": "庚午",
+      "stem": "庚",
+      "branch": "午",
+      "stemElement": "金",
+      "branchElement": "火",
+      "zodiac": "馬",
+      "nayin": "路旁土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 8,
+      "ganzhi": "辛未",
+      "stem": "辛",
+      "branch": "未",
+      "stemElement": "金",
+      "branchElement": "土",
+      "zodiac": "羊",
+      "nayin": "路旁土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 9,
+      "ganzhi": "壬申",
+      "stem": "壬",
+      "branch": "申",
+      "stemElement": "水",
+      "branchElement": "金",
+      "zodiac": "猴",
+      "nayin": "剑锋金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 10,
+      "ganzhi": "癸酉",
+      "stem": "癸",
+      "branch": "酉",
+      "stemElement": "水",
+      "branchElement": "金",
+      "zodiac": "雞",
+      "nayin": "剑锋金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 11,
+      "ganzhi": "甲戌",
+      "stem": "甲",
+      "branch": "戌",
+      "stemElement": "木",
+      "branchElement": "土",
+      "zodiac": "狗",
+      "nayin": "山头火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 12,
+      "ganzhi": "乙亥",
+      "stem": "乙",
+      "branch": "亥",
+      "stemElement": "木",
+      "branchElement": "水",
+      "zodiac": "豬",
+      "nayin": "山头火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 13,
+      "ganzhi": "丙子",
+      "stem": "丙",
+      "branch": "子",
+      "stemElement": "火",
+      "branchElement": "水",
+      "zodiac": "鼠",
+      "nayin": "涧下水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 14,
+      "ganzhi": "丁丑",
+      "stem": "丁",
+      "branch": "丑",
+      "stemElement": "火",
+      "branchElement": "土",
+      "zodiac": "牛",
+      "nayin": "涧下水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 15,
+      "ganzhi": "戊寅",
+      "stem": "戊",
+      "branch": "寅",
+      "stemElement": "土",
+      "branchElement": "木",
+      "zodiac": "虎",
+      "nayin": "城头土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 16,
+      "ganzhi": "己卯",
+      "stem": "己",
+      "branch": "卯",
+      "stemElement": "土",
+      "branchElement": "木",
+      "zodiac": "兔",
+      "nayin": "城头土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 17,
+      "ganzhi": "庚辰",
+      "stem": "庚",
+      "branch": "辰",
+      "stemElement": "金",
+      "branchElement": "土",
+      "zodiac": "龍",
+      "nayin": "白蜡金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 18,
+      "ganzhi": "辛巳",
+      "stem": "辛",
+      "branch": "巳",
+      "stemElement": "金",
+      "branchElement": "火",
+      "zodiac": "蛇",
+      "nayin": "白蜡金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 19,
+      "ganzhi": "壬午",
+      "stem": "壬",
+      "branch": "午",
+      "stemElement": "水",
+      "branchElement": "火",
+      "zodiac": "馬",
+      "nayin": "杨柳木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 20,
+      "ganzhi": "癸未",
+      "stem": "癸",
+      "branch": "未",
+      "stemElement": "水",
+      "branchElement": "土",
+      "zodiac": "羊",
+      "nayin": "杨柳木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 21,
+      "ganzhi": "甲申",
+      "stem": "甲",
+      "branch": "申",
+      "stemElement": "木",
+      "branchElement": "金",
+      "zodiac": "猴",
+      "nayin": "泉中水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 22,
+      "ganzhi": "乙酉",
+      "stem": "乙",
+      "branch": "酉",
+      "stemElement": "木",
+      "branchElement": "金",
+      "zodiac": "雞",
+      "nayin": "泉中水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 23,
+      "ganzhi": "丙戌",
+      "stem": "丙",
+      "branch": "戌",
+      "stemElement": "火",
+      "branchElement": "土",
+      "zodiac": "狗",
+      "nayin": "屋上土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 24,
+      "ganzhi": "丁亥",
+      "stem": "丁",
+      "branch": "亥",
+      "stemElement": "火",
+      "branchElement": "水",
+      "zodiac": "豬",
+      "nayin": "屋上土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 25,
+      "ganzhi": "戊子",
+      "stem": "戊",
+      "branch": "子",
+      "stemElement": "土",
+      "branchElement": "水",
+      "zodiac": "鼠",
+      "nayin": "霹雳火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 26,
+      "ganzhi": "己丑",
+      "stem": "己",
+      "branch": "丑",
+      "stemElement": "土",
+      "branchElement": "土",
+      "zodiac": "牛",
+      "nayin": "霹雳火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 27,
+      "ganzhi": "庚寅",
+      "stem": "庚",
+      "branch": "寅",
+      "stemElement": "金",
+      "branchElement": "木",
+      "zodiac": "虎",
+      "nayin": "松柏木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 28,
+      "ganzhi": "辛卯",
+      "stem": "辛",
+      "branch": "卯",
+      "stemElement": "金",
+      "branchElement": "木",
+      "zodiac": "兔",
+      "nayin": "松柏木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 29,
+      "ganzhi": "壬辰",
+      "stem": "壬",
+      "branch": "辰",
+      "stemElement": "水",
+      "branchElement": "土",
+      "zodiac": "龍",
+      "nayin": "长流水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 30,
+      "ganzhi": "癸巳",
+      "stem": "癸",
+      "branch": "巳",
+      "stemElement": "水",
+      "branchElement": "火",
+      "zodiac": "蛇",
+      "nayin": "长流水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 31,
+      "ganzhi": "甲午",
+      "stem": "甲",
+      "branch": "午",
+      "stemElement": "木",
+      "branchElement": "火",
+      "zodiac": "馬",
+      "nayin": "沙中金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 32,
+      "ganzhi": "乙未",
+      "stem": "乙",
+      "branch": "未",
+      "stemElement": "木",
+      "branchElement": "土",
+      "zodiac": "羊",
+      "nayin": "沙中金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 33,
+      "ganzhi": "丙申",
+      "stem": "丙",
+      "branch": "申",
+      "stemElement": "火",
+      "branchElement": "金",
+      "zodiac": "猴",
+      "nayin": "山下火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 34,
+      "ganzhi": "丁酉",
+      "stem": "丁",
+      "branch": "酉",
+      "stemElement": "火",
+      "branchElement": "金",
+      "zodiac": "雞",
+      "nayin": "山下火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 35,
+      "ganzhi": "戊戌",
+      "stem": "戊",
+      "branch": "戌",
+      "stemElement": "土",
+      "branchElement": "土",
+      "zodiac": "狗",
+      "nayin": "平地木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 36,
+      "ganzhi": "己亥",
+      "stem": "己",
+      "branch": "亥",
+      "stemElement": "土",
+      "branchElement": "水",
+      "zodiac": "豬",
+      "nayin": "平地木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 37,
+      "ganzhi": "庚子",
+      "stem": "庚",
+      "branch": "子",
+      "stemElement": "金",
+      "branchElement": "水",
+      "zodiac": "鼠",
+      "nayin": "壁上土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 38,
+      "ganzhi": "辛丑",
+      "stem": "辛",
+      "branch": "丑",
+      "stemElement": "金",
+      "branchElement": "土",
+      "zodiac": "牛",
+      "nayin": "壁上土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 39,
+      "ganzhi": "壬寅",
+      "stem": "壬",
+      "branch": "寅",
+      "stemElement": "水",
+      "branchElement": "木",
+      "zodiac": "虎",
+      "nayin": "金箔金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 40,
+      "ganzhi": "癸卯",
+      "stem": "癸",
+      "branch": "卯",
+      "stemElement": "水",
+      "branchElement": "木",
+      "zodiac": "兔",
+      "nayin": "金箔金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 41,
+      "ganzhi": "甲辰",
+      "stem": "甲",
+      "branch": "辰",
+      "stemElement": "木",
+      "branchElement": "土",
+      "zodiac": "龍",
+      "nayin": "覆灯火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 42,
+      "ganzhi": "乙巳",
+      "stem": "乙",
+      "branch": "巳",
+      "stemElement": "木",
+      "branchElement": "火",
+      "zodiac": "蛇",
+      "nayin": "覆灯火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 43,
+      "ganzhi": "丙午",
+      "stem": "丙",
+      "branch": "午",
+      "stemElement": "火",
+      "branchElement": "火",
+      "zodiac": "馬",
+      "nayin": "天河水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 44,
+      "ganzhi": "丁未",
+      "stem": "丁",
+      "branch": "未",
+      "stemElement": "火",
+      "branchElement": "土",
+      "zodiac": "羊",
+      "nayin": "天河水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 45,
+      "ganzhi": "戊申",
+      "stem": "戊",
+      "branch": "申",
+      "stemElement": "土",
+      "branchElement": "金",
+      "zodiac": "猴",
+      "nayin": "大驿土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 46,
+      "ganzhi": "己酉",
+      "stem": "己",
+      "branch": "酉",
+      "stemElement": "土",
+      "branchElement": "金",
+      "zodiac": "雞",
+      "nayin": "大驿土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 47,
+      "ganzhi": "庚戌",
+      "stem": "庚",
+      "branch": "戌",
+      "stemElement": "金",
+      "branchElement": "土",
+      "zodiac": "狗",
+      "nayin": "钗钏金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 48,
+      "ganzhi": "辛亥",
+      "stem": "辛",
+      "branch": "亥",
+      "stemElement": "金",
+      "branchElement": "水",
+      "zodiac": "豬",
+      "nayin": "钗钏金",
+      "nayinElement": "金"
+    },
+    {
+      "index": 49,
+      "ganzhi": "壬子",
+      "stem": "壬",
+      "branch": "子",
+      "stemElement": "水",
+      "branchElement": "水",
+      "zodiac": "鼠",
+      "nayin": "桑柘木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 50,
+      "ganzhi": "癸丑",
+      "stem": "癸",
+      "branch": "丑",
+      "stemElement": "水",
+      "branchElement": "土",
+      "zodiac": "牛",
+      "nayin": "桑柘木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 51,
+      "ganzhi": "甲寅",
+      "stem": "甲",
+      "branch": "寅",
+      "stemElement": "木",
+      "branchElement": "木",
+      "zodiac": "虎",
+      "nayin": "大溪水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 52,
+      "ganzhi": "乙卯",
+      "stem": "乙",
+      "branch": "卯",
+      "stemElement": "木",
+      "branchElement": "木",
+      "zodiac": "兔",
+      "nayin": "大溪水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 53,
+      "ganzhi": "丙辰",
+      "stem": "丙",
+      "branch": "辰",
+      "stemElement": "火",
+      "branchElement": "土",
+      "zodiac": "龍",
+      "nayin": "沙中土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 54,
+      "ganzhi": "丁巳",
+      "stem": "丁",
+      "branch": "巳",
+      "stemElement": "火",
+      "branchElement": "火",
+      "zodiac": "蛇",
+      "nayin": "沙中土",
+      "nayinElement": "土"
+    },
+    {
+      "index": 55,
+      "ganzhi": "戊午",
+      "stem": "戊",
+      "branch": "午",
+      "stemElement": "土",
+      "branchElement": "火",
+      "zodiac": "馬",
+      "nayin": "天上火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 56,
+      "ganzhi": "己未",
+      "stem": "己",
+      "branch": "未",
+      "stemElement": "土",
+      "branchElement": "土",
+      "zodiac": "羊",
+      "nayin": "天上火",
+      "nayinElement": "火"
+    },
+    {
+      "index": 57,
+      "ganzhi": "庚申",
+      "stem": "庚",
+      "branch": "申",
+      "stemElement": "金",
+      "branchElement": "金",
+      "zodiac": "猴",
+      "nayin": "石榴木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 58,
+      "ganzhi": "辛酉",
+      "stem": "辛",
+      "branch": "酉",
+      "stemElement": "金",
+      "branchElement": "金",
+      "zodiac": "雞",
+      "nayin": "石榴木",
+      "nayinElement": "木"
+    },
+    {
+      "index": 59,
+      "ganzhi": "壬戌",
+      "stem": "壬",
+      "branch": "戌",
+      "stemElement": "水",
+      "branchElement": "土",
+      "zodiac": "狗",
+      "nayin": "大海水",
+      "nayinElement": "水"
+    },
+    {
+      "index": 60,
+      "ganzhi": "癸亥",
+      "stem": "癸",
+      "branch": "亥",
+      "stemElement": "水",
+      "branchElement": "水",
+      "zodiac": "豬",
+      "nayin": "大海水",
+      "nayinElement": "水"
+    }
+  ]
+}
